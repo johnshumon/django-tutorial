@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "tutorials.apps.TutorialsConfig",
     "corsheaders",
-    "drf_yasg"
+    "drf_yasg",
 ]
 
 MIDDLEWARE = [
@@ -53,13 +53,11 @@ MIDDLEWARE = [
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
-    "django.middleware.clickjacking.XFrameOptionsMiddleware"
+    "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
 CORS_ORIGIN_ALLOW_ALL = False
-CORS_ORIGIN_WHITELIST = (
-    "http://localhost:8081",
-)
+CORS_ORIGIN_WHITELIST = ("http://localhost:8081",)
 
 ROOT_URLCONF = "drf_tutorial.urls"
 
@@ -92,7 +90,7 @@ DATABASES = {
         "USER": "abushumon",
         "PASSWORD": "",
         "HOST": "localhost",
-        "PORT": "5433"
+        "PORT": "5433",
     }
 }
 
