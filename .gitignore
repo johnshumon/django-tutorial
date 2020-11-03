@@ -1,0 +1,59 @@
+# ignore all files/folders starting with .
+.*
+~*
+/.idea
+*.log
+*.pyc
+*~
+/.env
+.DS_Store
+._*.*
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pot
+*.pot.injs
+
+# Django stuff:
+local_settings.py
+local_site_settings.py
+*.sql
+*.sqlite
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+_vendor.js
+.pytest_cache/
+cover/
+/cover
+
+# Distribution / packaging
+node_modules/
+build/
+dist/
+media/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Exclude
+!.gitignore
+!.gitattributes
+!.editorconfig
+!.pre-commit-config.yaml
+
+# Editors
+tags
