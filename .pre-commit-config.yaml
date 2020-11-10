@@ -7,15 +7,6 @@ default_stages:
     - "push"
 
 repos:
-    # Make sure black is used to maintain code format consistency
-    - repo: local
-      hooks:
-        - id: black
-          name: black
-          entry: black .
-          language: system
-          types: [python]
-    
     - repo: local
       hooks:
         - id: isort
@@ -23,4 +14,13 @@ repos:
           stages: [commit]
           language: system
           entry: isort
+          types: [python]
+    
+    # Make sure black is used to maintain code format consistency
+    - repo: local
+      hooks:
+        - id: black
+          name: black
+          entry: black .
+          language: system
           types: [python]
