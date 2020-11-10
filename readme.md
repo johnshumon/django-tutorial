@@ -6,7 +6,7 @@ Django rest framework (DRF) tutorial.
 
 This repo covers basic DRF learning tutorial. It also contains some python project setup and formatting best practices e.g. use of [.pre-commit](https://pre-commit.com/).
 
-I've used `pipenv` as I came from Nodejs world and not a big fan of `requirements.txt`.
+I've used [pipenv](https://pipenv.pypa.io/en/latest/) as I came from Nodejs world and not a big fan of `requirements.txt`.
 
 I followed following tutorials:
 
@@ -17,6 +17,7 @@ I followed following tutorials:
 
 TO-DO
 
+- Add steps to run the app.
 - Add an endpoint with basic authentication.
 - Add an endpoint with custom authentication.
 - Update `.pre-commit` hook list.
